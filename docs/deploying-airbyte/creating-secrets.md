@@ -33,7 +33,7 @@ You can also use `kubectl` to create the secret directly from the CLI:
 ```sh
 kubectl create secret generic airbyte-config-secrets \
   --from-literal=key-1='value-1' \
-  --from-literal=key2='value-2' \
+  --from-literal=key-2='value-2' \
   --namespace airbyte
 ```
 
